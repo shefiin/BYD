@@ -1,0 +1,281 @@
+.black-part {
+  background: black;
+  width: 100%;
+  height: 32px;
+}
+.gray-part {
+  background: rgb(58, 58, 58);
+  width: 100%;
+  height: 68px;
+  display: flex;
+  gap: 150px;
+}
+body {
+  margin: 0;
+  font-family: league-spartan;
+  color: rgb(44, 44, 44);
+}
+.logo {
+  padding-top: 15px;
+  padding-left: 60px;
+  width: 15%;
+  float: left;
+}
+.info {
+  width: 60%;
+}
+
+.first {
+  width: 100%;
+  height: 698px;
+  position:relative;
+  
+  
+}
+.first-img {
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  z-index: -1;
+  
+}
+
+.first-img-button{
+  position:absolute;
+  z-index:1;
+  margin-bottom:500px;
+
+}
+.second-button{
+  position:absolute;
+  z-index:1;
+  margin-left:200px;
+}
+
+
+.main-body {
+  width: 100%;
+  height: 1305px;
+  
+}
+.second {
+  width: 100%;
+  height: 388.5px;
+  margin-top: 1.5px;
+  position:relative;
+  
+  
+}
+.logo-sec {
+  
+ position: absolute;
+ right: 0;
+ margin-top: 23%;
+ margin-right: 20px;
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+.img2 {
+  width: 100%;
+  height: 100%;
+  
+  position: relative;
+  
+}
+.footer-list {
+  width: 50%;
+  float: left;
+}
+.icon {
+  width: 50%;
+  float: right;
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+  
+}
+.footer-list ul {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  font-size: 18px;
+ 
+}
+.container {
+  padding-left: 50px;
+  margin-top: 35px;
+  height: 35px;
+}
+@font-face {
+  font-family:'league-spartan';
+  src: url(LeagueSpartan-Regular.ttf);
+}
+.down {
+  height: 30px;
+}
+.log {
+  width: 18px;
+  height: 18px;
+  float: right;
+
+}
+.ic {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+}
+.ig {
+  width: 100%;
+  height: 100%;
+}
+.social {
+  display: flex;
+  gap: 25px;
+  float: right;
+  padding-right: 80px;
+}
+
+.main-body hr {
+  width: 100%;
+  margin-top: 60px;
+  color: rgb(181, 181, 181);
+}
+.last {
+  text-align: center;
+}
+.nav {
+  width: 650px;
+  height: 55px;
+  padding-top: 10px;
+  
+  
+  
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  gap: 45px;
+  color: white;
+  text-align: center;
+  
+}
+.im {
+  width: 20px;
+  height: 20px;
+}
+.steering {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+.way {
+  width: 300px;
+  display: flex;
+  gap: 10px;
+  
+}
+.dealing {
+  width: 80px;
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  
+}
+.enquire {
+  width: 110px;
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+.txt {
+  color: #fff;
+}
+.loc {
+  width: 100%;
+  height: 100%;
+  padding-top: 10px;
+}
+.ul {
+  padding: 0;
+}
+.first button {
+  position: absolute;
+  z-index: -3;
+  left: 0;
+  top: 0;
+}
+button {
+  margin-left: 535px;
+  background: rgb(58, 58, 58);
+  border: none;
+  width: 180px;
+  height: 40px;
+  margin-top: 170px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 15p;
+}
+
+
+.second{
+  position:relative;
+}
+
+#heading{
+  position: absolute;
+  margin-top: -270px;
+  margin-left: 445px;
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 1px;
+  
+}
+#headding{
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 578px;
+  font-size: 19px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.side-group {
+  width: 20%;
+  height: 30px;
+  float: right;
+  
+}
+.side-icons {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  gap: 20px;
+  margin-top: 7px;
+
+}
+.side-icons img {
+  width: 100%;
+  height: 100%;
+}
+.side-icons p {
+  color: #fff;
+  margin-top: 2px;
+}
+.whatsapp {
+  width: 61px;
+  height: 61px;
+  float: right;
+  margin-top: 40%;
+  margin-right: 40px;
+  
+  
+}
+
+
+
+.whatsapp img{
+  width: 100%;
+  height: 100%;
+}
